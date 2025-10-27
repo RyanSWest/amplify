@@ -1,37 +1,82 @@
 {
-  "name": "amplify-vite-react-template",
+  "name": "testpage",
+    
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.5.5",
-    "aws-amplify": "^6.6.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+   
+    "@coral-xyz/anchor": "^0.31.1",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/react-paypal-js": "^8.9.2",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-wallets": "^0.19.33",
+    "@solana/web3.js": "^1.98.4",
+   
+   
+    "@wallet-ui/react": "^1.1.1",
+    "aws-amplify": "^6.15.7",
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "gill": "^0.10.3",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.544.0",
+    "metaplex": "^0.0.1-security",
+    "react": "^19.1.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.1",
+    "react-pdf": "^10.1.0",
+    "react-router-dom": "^7.8.2",
+    "react-scrollbars": "^0.0.5",
+    "sqlite3": "^5.1.7",
+    
   },
   "devDependencies": {
-    "@aws-amplify/backend": "^1.5.0",
-    "@aws-amplify/backend-cli": "^1.2.9",
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "aws-cdk": "^2.138.0",
-    "aws-cdk-lib": "^2.138.0",
-    "constructs": "^10.3.0",
-    "esbuild": "^0.20.2",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.5",
-    "vite": "^5.4.10"
-  }
+    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "aws-cdk-lib": "^2.204.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.11",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.2"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanSWest/MaybeAgain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanSWest/MaybeAgain/issues"
+  },
+  "homepage": "https://github.com/RyanSWest/MaybeAgain#readme"
 }
